@@ -3,7 +3,7 @@ import './TradeTable.css';
 
 const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
 const SPREADSHEET_ID = process.env.REACT_APP_SPREADSHEET_ID;
-const RANGE = 'Trades!A20:B100';
+const RANGE = 'Trades!A20:B200';
 
 function TradesTable() {
   const [data, setData] = useState([]);
