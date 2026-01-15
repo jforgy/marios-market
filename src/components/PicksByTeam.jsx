@@ -5,7 +5,7 @@ import'./GoogleSheetTable.css'
 
 const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
 const SPREADSHEET_ID = process.env.REACT_APP_SPREADSHEET_ID;
-const RANGE = 'Picks%20By%20Team!B1:O17';
+const RANGE = 'Picks%20By%20Team!B1:O18';
 
 function GoogleSheetTable() {
   const [data, setData] = useState([]);
