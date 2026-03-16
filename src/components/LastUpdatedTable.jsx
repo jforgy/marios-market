@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './LastUpdatedTable.css';
 
 const API_KEY = 'AIzaSyCZ9HIFNHsY15dnMAUz8EzBVrayywNR1BA';
-const SPREADSHEET_ID = '1_RGzdYk-mOuoyXqWVbYlCK2Htg3ax7fsB0VZwv5PODI';
+const SPREADSHEET_ID = '1DkvWtNLZxmlm8dUMwQ26RBxHOOY1iVaraOAJvA20qOY';
 const LAST_UPDATED_RANGE = 'Adjusted%20Standings!H2';
 const TABLE_RANGE = 'Adjusted%20Standings!I2:J15';
 
