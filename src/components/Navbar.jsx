@@ -44,15 +44,6 @@ function Navbar() {
               Standings
             </Link>
           </li>
-          <li className="nav-item">
-            <Link 
-              to="/tournament" 
-              className={location.pathname === "/tournament" ? "nav-link active" : "nav-link"}
-              onClick={() => setMenuOpen(false)}
-            >
-              Tournament
-            </Link>
-          </li>
         </ul>
       </div>
     </nav>
