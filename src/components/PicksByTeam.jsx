@@ -73,7 +73,7 @@ function GoogleSheetTable() {
 
   return (
     <div className="google-sheet-table-container">
-      <h2>2026 Picks By Team</h2>
+      <h2>2027 Picks By Team</h2>
       
       <div className="column-toggle-container">
         <div className="toggle-header">
